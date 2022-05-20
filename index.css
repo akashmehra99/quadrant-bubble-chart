@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+#root-elm {
+    height: 100vh;
+    width: 100vw;
+}
+
+.x-axis {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    translate: (-50%, 0);
+    background: #000;
+}
+
+.y-axis {
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    left: 50%;
+    translate: (0, -50%);
+    background: #000;
+}
+
+.bubble {
+    border-radius: 50%;
+    position: absolute;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
